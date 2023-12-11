@@ -17,6 +17,7 @@ import _StringProcessing
   case invalidImageData = 3
   case writeToDisk = 4
   case http = 5
+  case versionInsufficient = 6
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public static var _nsErrorDomain: Swift.String {

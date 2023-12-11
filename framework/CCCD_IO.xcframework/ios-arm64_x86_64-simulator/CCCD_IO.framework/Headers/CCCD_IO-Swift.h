@@ -270,6 +270,7 @@ typedef SWIFT_ENUM(NSInteger, CCCDError, open) {
   CCCDErrorInvalidImageData = 3,
   CCCDErrorWriteToDisk = 4,
   CCCDErrorHttp = 5,
+  CCCDErrorVersionInsufficient = 6,
 };
 static NSString * _Nonnull const CCCDErrorDomain = @"CCCD_IO.CCCDError";
 
@@ -583,6 +584,7 @@ typedef SWIFT_ENUM(NSInteger, CCCDError, open) {
   CCCDErrorInvalidImageData = 3,
   CCCDErrorWriteToDisk = 4,
   CCCDErrorHttp = 5,
+  CCCDErrorVersionInsufficient = 6,
 };
 static NSString * _Nonnull const CCCDErrorDomain = @"CCCD_IO.CCCDError";
 
