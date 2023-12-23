@@ -2148,28 +2148,28 @@
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/WorkflowHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5608,
+      "offset": 5607,
       "length": 19,
       "value": "\"upload_face_video\""
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/WorkflowHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5649,
+      "offset": 5648,
       "length": 20,
       "value": "\"upload_face_motion\""
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/WorkflowHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5692,
+      "offset": 5691,
       "length": 19,
       "value": "\"upload_face_photo\""
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/WorkflowHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5733,
+      "offset": 5732,
       "length": 23,
       "value": "\"upload_document_photo\""
     },
