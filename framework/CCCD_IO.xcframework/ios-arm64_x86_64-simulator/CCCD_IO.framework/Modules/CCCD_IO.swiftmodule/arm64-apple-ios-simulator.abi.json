@@ -80,38 +80,15 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "AVKit",
+        "printedName": "AVKit",
         "declKind": "Import",
-        "moduleName": "CCCD_IO",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "CCCD_IO"
       },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CCCD_IO",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CCCD_IO",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CCCD_IO",
         "declAttributes": [
@@ -160,6 +137,43 @@
       },
       {
         "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "CCCD_IO"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CCCD_IO",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CCCD_IO",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CCCD_IO",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -172,6 +186,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CCCD_IO",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "CCCD_IO",
         "declAttributes": [
@@ -842,7 +866,79 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(token:workflowRunID:)",
+            "printedName": "init(workflowRunID:token:tokenExpirationHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CCCDConfig",
+                "printedName": "CCCD_IO.CCCDConfig",
+                "usr": "c:@M@CCCD_IO@objc(cs)CCCDConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((@escaping (Swift.String) -> ()) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(@escaping (Swift.String) -> ()) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CCCD_IO@objc(cs)CCCDConfig(im)initWithWorkflowRunID:token:tokenExpirationHandler:",
+            "mangledName": "$s7CCCD_IO10CCCDConfigC13workflowRunID5token0G17ExpirationHandlerACSS_SSyySSccSgtcfc",
+            "moduleName": "CCCD_IO",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(workflowRunID:token:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -864,8 +960,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@CCCD_IO@objc(cs)CCCDConfig(im)initWithToken:workflowRunID:",
-            "mangledName": "$s7CCCD_IO10CCCDConfigC5token13workflowRunIDACSS_SStcfc",
+            "usr": "c:@M@CCCD_IO@objc(cs)CCCDConfig(im)initWithWorkflowRunID:token:",
+            "mangledName": "$s7CCCD_IO10CCCDConfigC13workflowRunID5tokenACSS_SStcfc",
             "moduleName": "CCCD_IO",
             "declAttributes": [
               "AccessControl",
@@ -1891,7 +1987,7 @@
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/Network\/CCCDRequest.swift",
       "kind": "StringLiteral",
-      "offset": 250,
+      "offset": 441,
       "length": 25,
       "value": "\"https:\/\/api.cccd.io\/v1\/\""
     },
@@ -1982,21 +2078,21 @@
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/Selfie\/VerifyFacePhotoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 196,
+      "offset": 210,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/Selfie\/VerifyFacePhotoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 315,
+      "offset": 329,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/Selfie\/VerifyFacePhotoVC.swift",
       "kind": "StringLiteral",
-      "offset": 147,
+      "offset": 161,
       "length": 9,
       "value": "\"CCCD_IO.ImageView\""
     },
@@ -2038,42 +2134,42 @@
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/WorkflowHandler.swift",
       "kind": "StringLiteral",
-      "offset": 449,
+      "offset": 1290,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/WorkflowHandler.swift",
       "kind": "StringLiteral",
-      "offset": 494,
+      "offset": 1335,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/WorkflowHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4389,
+      "offset": 5639,
       "length": 19,
       "value": "\"upload_face_video\""
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/WorkflowHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4430,
+      "offset": 5680,
       "length": 20,
       "value": "\"upload_face_motion\""
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/WorkflowHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4473,
+      "offset": 5723,
       "length": 19,
       "value": "\"upload_face_photo\""
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/WorkflowHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4514,
+      "offset": 5764,
       "length": 23,
       "value": "\"upload_document_photo\""
     },
@@ -2178,16 +2274,23 @@
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/CCCDViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1150,
+      "offset": 524,
       "length": 10,
       "value": "\"CCCD_IO.CCCDConfig\""
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/CCCDViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1398,
+      "offset": 1125,
       "length": 12,
       "value": "\"CCCD_IO.CCCDResponse\""
+    },
+    {
+      "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/CCCDViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1716,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/FaceVideo\/FaceVideoEntryVC.swift",
@@ -2234,7 +2337,7 @@
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/FaceMotion\/FaceMotion.swift",
       "kind": "BooleanLiteral",
-      "offset": 4376,
+      "offset": 4419,
       "length": 5,
       "value": "false"
     },
@@ -2549,7 +2652,7 @@
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/Base\/BaseVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1533,
+      "offset": 1581,
       "length": 4,
       "value": "true"
     },
@@ -2559,6 +2662,13 @@
       "offset": 95,
       "length": 9,
       "value": "\"CCCD_IO.ErrorView\""
+    },
+    {
+      "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/Components\/ErrorView.swift",
+      "kind": "StringLiteral",
+      "offset": 2636,
+      "length": 16,
+      "value": "\"CCCD_IO.OnelineErrorView\""
     }
   ]
 }

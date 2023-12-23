@@ -258,7 +258,8 @@ SWIFT_CLASS("_TtC7CCCD_IO10CCCDConfig")
 @interface CCCDConfig : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull token;
 @property (nonatomic, readonly, copy) NSString * _Nonnull workflowRunID;
-- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token workflowRunID:(NSString * _Nonnull)workflowRunID OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithWorkflowRunID:(NSString * _Nonnull)workflowRunID token:(NSString * _Nonnull)token tokenExpirationHandler:(void (^ _Nullable)(void (^ _Nonnull)(NSString * _Nonnull)))tokenExpirationHandler OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithWorkflowRunID:(NSString * _Nonnull)workflowRunID token:(NSString * _Nonnull)token OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -298,6 +299,7 @@ SWIFT_CLASS("_TtC7CCCD_IO18CCCDViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
