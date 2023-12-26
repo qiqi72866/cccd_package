@@ -12,6 +12,7 @@ import UIKit
 import Vision
 import _Concurrency
 import _StringProcessing
+import os
 public enum MRZResult {
   case genericDocument(CCCD_IO.MRZResult.GenericDocument)
 }

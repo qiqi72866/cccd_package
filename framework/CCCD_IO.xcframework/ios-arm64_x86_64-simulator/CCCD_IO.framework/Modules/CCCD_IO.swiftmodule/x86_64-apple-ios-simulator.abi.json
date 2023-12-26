@@ -2861,6 +2861,13 @@
       },
       {
         "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "CCCD_IO"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3311,7 +3318,7 @@
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/CCCDViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1716,
+      "offset": 1762,
       "length": 5,
       "value": "false"
     },
@@ -3675,9 +3682,23 @@
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/NFC\/MRZScanVC.swift",
       "kind": "StringLiteral",
-      "offset": 361,
+      "offset": 370,
       "length": 19,
       "value": "\"cccd.video.output\""
+    },
+    {
+      "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/NFC\/MRZScanVC.swift",
+      "kind": "StringLiteral",
+      "offset": 543,
+      "length": 6,
+      "value": "\"cxcy\""
+    },
+    {
+      "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/NFC\/MRZScanVC.swift",
+      "kind": "StringLiteral",
+      "offset": 561,
+      "length": 5,
+      "value": "\"mzz\""
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/Base\/BaseVC.swift",
