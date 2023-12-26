@@ -69,6 +69,7 @@ public typealias CCCDTokenExpirationHandler = (@escaping (Swift.String) -> Swift
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CCCDViewController : UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) public static var logger: (Swift.String) -> Swift.Void
   @objc @_Concurrency.MainActor(unsafe) public var cccdConfig: CCCD_IO.CCCDConfig?
   @objc @_Concurrency.MainActor(unsafe) public func setCCCDCompletionHandler(_ handler: @escaping CCCD_IO.CCCDCompletionHandler)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
