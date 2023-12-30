@@ -5,37 +5,12 @@
 import AVFoundation
 import AVKit
 @_exported import CCCD_IO
-import CoreGraphics
 import Foundation
 import Swift
 import UIKit
 import Vision
 import _Concurrency
 import _StringProcessing
-import os
-public enum MRZResult {
-  case genericDocument(CCCD_IO.MRZResult.GenericDocument)
-}
-extension CCCD_IO.MRZResult {
-  public struct GenericDocument {
-    public let documentType: Swift.String
-    public let countryCode: Swift.String
-    public let surnames: Swift.String
-    public let givenNames: Swift.String
-    public let documentNumber: Swift.String
-    public let nationalityCountryCode: Swift.String
-    public let birthdate: Foundation.Date?
-    public let sex: Swift.String?
-    public let expiryDate: Foundation.Date?
-    public let personalNumber: Swift.String
-    public let personalNumber2: Swift.String?
-    public let isDocumentNumberValid: Swift.Bool
-    public let isBirthdateValid: Swift.Bool
-    public let isExpiryDateValid: Swift.Bool
-    public let isPersonalNumberValid: Swift.Bool?
-    public let allCheckDigitsValid: Swift.Bool
-  }
-}
 @objc public enum CCCDError : Swift.Int, Swift.Error {
   case userCancelled = 0
   case cameraPermission = 1
@@ -69,7 +44,6 @@ public typealias CCCDTokenExpirationHandler = (@escaping (Swift.String) -> Swift
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CCCDViewController : UIKit.UINavigationController {
-  @_Concurrency.MainActor(unsafe) public static var logger: (Swift.String) -> Swift.Void
   @objc @_Concurrency.MainActor(unsafe) public var cccdConfig: CCCD_IO.CCCDConfig?
   @objc @_Concurrency.MainActor(unsafe) public func setCCCDCompletionHandler(_ handler: @escaping CCCD_IO.CCCDCompletionHandler)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()

@@ -16,16 +16,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CCCD_IO",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -147,16 +137,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CCCD_IO",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -224,16 +204,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CCCD_IO",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -241,903 +211,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CCCD_IO",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MRZResult",
-        "printedName": "MRZResult",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "genericDocument",
-            "printedName": "genericDocument",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(CCCD_IO.MRZResult.Type) -> (CCCD_IO.MRZResult.GenericDocument) -> CCCD_IO.MRZResult",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(CCCD_IO.MRZResult.GenericDocument) -> CCCD_IO.MRZResult",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MRZResult",
-                        "printedName": "CCCD_IO.MRZResult",
-                        "usr": "s:7CCCD_IO9MRZResultO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericDocument",
-                        "printedName": "CCCD_IO.MRZResult.GenericDocument",
-                        "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "CCCD_IO.MRZResult.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MRZResult",
-                        "printedName": "CCCD_IO.MRZResult",
-                        "usr": "s:7CCCD_IO9MRZResultO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7CCCD_IO9MRZResultO15genericDocumentyA2C07GenericE0VcACmF",
-            "mangledName": "$s7CCCD_IO9MRZResultO15genericDocumentyA2C07GenericE0VcACmF",
-            "moduleName": "CCCD_IO",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "GenericDocument",
-            "printedName": "GenericDocument",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "documentType",
-                "printedName": "documentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV12documentTypeSSvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV12documentTypeSSvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV12documentTypeSSvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV12documentTypeSSvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "countryCode",
-                "printedName": "countryCode",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV11countryCodeSSvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV11countryCodeSSvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV11countryCodeSSvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV11countryCodeSSvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "surnames",
-                "printedName": "surnames",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV8surnamesSSvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV8surnamesSSvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV8surnamesSSvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV8surnamesSSvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "givenNames",
-                "printedName": "givenNames",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV10givenNamesSSvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV10givenNamesSSvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV10givenNamesSSvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV10givenNamesSSvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "documentNumber",
-                "printedName": "documentNumber",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV14documentNumberSSvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV14documentNumberSSvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV14documentNumberSSvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV14documentNumberSSvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "nationalityCountryCode",
-                "printedName": "nationalityCountryCode",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV22nationalityCountryCodeSSvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV22nationalityCountryCodeSSvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV22nationalityCountryCodeSSvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV22nationalityCountryCodeSSvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "birthdate",
-                "printedName": "birthdate",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.Date?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Date",
-                        "printedName": "Foundation.Date",
-                        "usr": "s:10Foundation4DateV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV9birthdate10Foundation4DateVSgvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV9birthdate10Foundation4DateVSgvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Foundation.Date?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Date",
-                            "printedName": "Foundation.Date",
-                            "usr": "s:10Foundation4DateV"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV9birthdate10Foundation4DateVSgvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV9birthdate10Foundation4DateVSgvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "sex",
-                "printedName": "sex",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV3sexSSSgvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV3sexSSSgvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV3sexSSSgvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV3sexSSSgvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "expiryDate",
-                "printedName": "expiryDate",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.Date?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Date",
-                        "printedName": "Foundation.Date",
-                        "usr": "s:10Foundation4DateV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV10expiryDate10Foundation0G0VSgvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV10expiryDate10Foundation0G0VSgvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Foundation.Date?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Date",
-                            "printedName": "Foundation.Date",
-                            "usr": "s:10Foundation4DateV"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV10expiryDate10Foundation0G0VSgvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV10expiryDate10Foundation0G0VSgvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "personalNumber",
-                "printedName": "personalNumber",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV14personalNumberSSvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV14personalNumberSSvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV14personalNumberSSvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV14personalNumberSSvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "personalNumber2",
-                "printedName": "personalNumber2",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV15personalNumber2SSSgvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV15personalNumber2SSSgvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV15personalNumber2SSSgvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV15personalNumber2SSSgvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "isDocumentNumberValid",
-                "printedName": "isDocumentNumberValid",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV02isE11NumberValidSbvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV02isE11NumberValidSbvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV02isE11NumberValidSbvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV02isE11NumberValidSbvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "isBirthdateValid",
-                "printedName": "isBirthdateValid",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV16isBirthdateValidSbvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV16isBirthdateValidSbvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV16isBirthdateValidSbvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV16isBirthdateValidSbvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "isExpiryDateValid",
-                "printedName": "isExpiryDateValid",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV17isExpiryDateValidSbvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV17isExpiryDateValidSbvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV17isExpiryDateValidSbvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV17isExpiryDateValidSbvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "isPersonalNumberValid",
-                "printedName": "isPersonalNumberValid",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV21isPersonalNumberValidSbSgvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV21isPersonalNumberValidSbSgvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.Bool?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV21isPersonalNumberValidSbSgvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV21isPersonalNumberValidSbSgvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "allCheckDigitsValid",
-                "printedName": "allCheckDigitsValid",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV19allCheckDigitsValidSbvp",
-                "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV19allCheckDigitsValidSbvp",
-                "moduleName": "CCCD_IO",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV19allCheckDigitsValidSbvg",
-                    "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV19allCheckDigitsValidSbvg",
-                    "moduleName": "CCCD_IO",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Struct",
-            "usr": "s:7CCCD_IO9MRZResultO15GenericDocumentV",
-            "mangledName": "$s7CCCD_IO9MRZResultO15GenericDocumentV",
-            "moduleName": "CCCD_IO",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:7CCCD_IO9MRZResultO",
-        "mangledName": "$s7CCCD_IO9MRZResultO",
-        "moduleName": "CCCD_IO",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreGraphics",
-        "printedName": "CoreGraphics",
-        "declKind": "Import",
-        "moduleName": "CCCD_IO",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "CCCD_IO"
       },
       {
         "kind": "Import",
@@ -1202,26 +275,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "CCCD_IO"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CCCD_IO",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CCCD_IO",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -2182,143 +1235,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "logger",
-            "printedName": "logger",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7CCCD_IO18CCCDViewControllerC6loggeryySScvpZ",
-            "mangledName": "$s7CCCD_IO18CCCDViewControllerC6loggeryySScvpZ",
-            "moduleName": "CCCD_IO",
-            "static": true,
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7CCCD_IO18CCCDViewControllerC6loggeryySScvgZ",
-                "mangledName": "$s7CCCD_IO18CCCDViewControllerC6loggeryySScvgZ",
-                "moduleName": "CCCD_IO",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7CCCD_IO18CCCDViewControllerC6loggeryySScvsZ",
-                "mangledName": "$s7CCCD_IO18CCCDViewControllerC6loggeryySScvsZ",
-                "moduleName": "CCCD_IO",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7CCCD_IO18CCCDViewControllerC6loggeryySScvMZ",
-                "mangledName": "$s7CCCD_IO18CCCDViewControllerC6loggeryySScvMZ",
-                "moduleName": "CCCD_IO",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "cccdConfig",
             "printedName": "cccdConfig",
             "children": [
@@ -2984,37 +1900,6 @@
       },
       {
         "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "CCCD_IO"
-      },
-      {
-        "kind": "Import",
-        "name": "Vision",
-        "printedName": "Vision",
-        "declKind": "Import",
-        "moduleName": "CCCD_IO"
-      },
-      {
-        "kind": "Import",
-        "name": "os",
-        "printedName": "os",
-        "declKind": "Import",
-        "moduleName": "CCCD_IO"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CCCD_IO",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3180,34 +2065,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/MRZ\/MRZFieldFormatter.swift",
-      "kind": "StringLiteral",
-      "offset": 311,
-      "length": 10,
-      "value": "\"yyyyMMdd\""
-    },
-    {
-      "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/MRZ\/MRZFieldFormatter.swift",
-      "kind": "StringLiteral",
-      "offset": 368,
-      "length": 13,
-      "value": "\"en_US_POSIX\""
-    },
-    {
-      "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/MRZ\/MRZFieldFormatter.swift",
-      "kind": "StringLiteral",
-      "offset": 435,
-      "length": 10,
-      "value": "\"GMT+0:00\""
-    },
-    {
-      "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/MRZ\/MRZFieldFormatter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 625,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/Network\/UploadConfig.swift",
       "kind": "StringLiteral",
       "offset": 254,
@@ -3266,7 +2123,7 @@
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/Model\/Workflow.swift",
       "kind": "StringLiteral",
-      "offset": 659,
+      "offset": 618,
       "length": 20,
       "value": "\"CCCD_IO.WorkflowTaskDocument\""
     },
@@ -3279,10 +2136,10 @@
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/FaceVideo\/FaceVideoVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 254,
-      "length": 5,
-      "value": "false"
+      "kind": "StringLiteral",
+      "offset": 97,
+      "length": 9,
+      "value": "\"CCCD_IO.ArrowView\""
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/Components\/LoadingView.swift",
@@ -3308,37 +2165,30 @@
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/WorkflowHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5852,
+      "offset": 5805,
       "length": 19,
       "value": "\"upload_face_video\""
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/WorkflowHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5893,
+      "offset": 5846,
       "length": 20,
       "value": "\"upload_face_motion\""
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/WorkflowHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5936,
+      "offset": 5889,
       "length": 19,
       "value": "\"upload_face_photo\""
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/WorkflowHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5977,
+      "offset": 5930,
       "length": 23,
       "value": "\"upload_document_photo\""
-    },
-    {
-      "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/MRZ\/Parser+TD3.swift",
-      "kind": "IntegerLiteral",
-      "offset": 316,
-      "length": 2,
-      "value": "30"
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/CCCDViewController.swift",
@@ -3455,7 +2305,7 @@
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/CCCDViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1769,
+      "offset": 1716,
       "length": 5,
       "value": "false"
     },
@@ -3504,7 +2354,7 @@
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/FaceMotion\/FaceMotion.swift",
       "kind": "BooleanLiteral",
-      "offset": 4413,
+      "offset": 4221,
       "length": 5,
       "value": "false"
     },
@@ -3792,50 +2642,29 @@
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/CCCDStyle.swift",
       "kind": "FloatLiteral",
       "offset": 1264,
-      "length": 3,
-      "value": "0.3"
+      "length": 4,
+      "value": "0.62"
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/CCCDStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1276,
+      "offset": 1277,
       "length": 4,
-      "value": "0.69"
+      "value": "0.84"
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/CCCDStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1288,
+      "offset": 1289,
       "length": 4,
-      "value": "0.41"
+      "value": "0.38"
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/CCCDStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 1301,
+      "offset": 1302,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/NFC\/MRZScanVC.swift",
-      "kind": "StringLiteral",
-      "offset": 370,
-      "length": 19,
-      "value": "\"cccd.video.output\""
-    },
-    {
-      "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/NFC\/MRZScanVC.swift",
-      "kind": "StringLiteral",
-      "offset": 543,
-      "length": 6,
-      "value": "\"cxcy\""
-    },
-    {
-      "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/NFC\/MRZScanVC.swift",
-      "kind": "StringLiteral",
-      "offset": 561,
-      "length": 5,
-      "value": "\"mzz\""
     },
     {
       "filePath": "\/Users\/user4\/code\/iOS\/CCCD_IO\/CCCD_IO\/VC\/Base\/BaseVC.swift",
